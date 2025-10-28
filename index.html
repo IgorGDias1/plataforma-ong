@@ -7,19 +7,20 @@
     <title>UniCausas</title>
   </head>
   <body>
-    <a href="#main-content">Pular para o conteúdo</a>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
     <header class="navbar">
       <div class="container">
         <a href="#/" class="navbar-brand">UniCausas</a>
 
-        <label for="menu-toggle" class="">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
           <span></span>
           <span></span>
           <span></span>
         </label>
 
         <ul class="navbar-menu">
-          <li><a href="#">Inicio</a></li>
+          <li><a href="#/">Inicio</a></li>
           <li><a href="#/projetos">Projetos</a></li>
           <li><a href="#/equipe">Nossa Equipe</a></li>
           <li><a href="#/doacoes">Doações</a></li>
@@ -28,5 +29,6 @@
       </div>
     </header>
     <main id="app"></main>
+    <script src="js/script.js"></script>
   </body>
 </html>
