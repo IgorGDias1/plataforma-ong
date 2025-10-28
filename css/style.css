@@ -1,0 +1,96 @@
+/* VARIÁVEIS GLOBAIS E RESET */
+:root {
+  /* Cores */
+  --color-primary: #2a9d8f;
+  --color-primary-dark: #21867a;
+  --color-secondary: #9c27b0;
+  --color-neutral-100: #f9f9fb;
+  --color-neutral-400: #a0a0b2;
+  --color-neutral-700: #3d3d4a;
+  --color-neutral-900: #1a1a22;
+  --color-danger: #e63946;
+
+  /* Espaçamento */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 var(--space-2);
+}
+
+.title {
+  text-align: center;
+}
+
+/* Navbar principal */
+.navbar {
+  background-color: var(--color-primary);
+  padding: var(--space-2);
+  color: white;
+}
+
+/* Container que alinha logo e menu */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Menu */
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links do menu */
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  transition: 0.3s;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.navbar-menu li a:hover {
+  color: var(--color-secondary);
+}
+
+.navbar-menu a:hover {
+  color: var(--color-secondary);
+}
