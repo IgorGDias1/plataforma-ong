@@ -1,98 +1,147 @@
-🕊️ Unicausas
+<div align="center">
+    <h1>🌎 Unicausas: Conectando Causas, Pessoas e Impacto Social</h1>
+    <p>Plataforma web moderna para gestão de ONGs, voluntários e doadores.</p>
+</div>
 
-Plataforma web desenvolvida para conectar ONGs, voluntários e doadores, oferecendo um ambiente digital moderno para gerenciamento de atividades, divulgação de projetos sociais e captação de recursos.
+---
 
-🌍 Sobre o Projeto
+### ✨ Sobre o Projeto
 
-A Unicausas é uma plataforma web responsiva e acessível que facilita a comunicação e o engajamento entre organizações sem fins lucrativos e pessoas interessadas em contribuir com causas sociais.
+A **Unicausas** é uma plataforma web responsiva e acessível, desenvolvida para ser o ponto de encontro digital entre **ONGs**, **voluntários** e **doadores**. Nosso objetivo é simplificar a gestão de atividades sociais, aumentar a visibilidade de projetos e otimizar a captação de recursos em um ambiente digital intuitivo e de alta performance.
 
-O site foi desenvolvido com foco em usabilidade, performance e acessibilidade, seguindo boas práticas de desenvolvimento front-end, design responsivo e padrões WCAG 2.1 AA.
+> 🎯 **Foco Principal**: Usabilidade, Performance e Acessibilidade (WCAG 2.1 AA).
 
-🚀 Funcionalidades
+---
 
-Página institucional com história, missão, visão e valores;
+### 🚀 Principais Funcionalidades
 
-Seção de projetos sociais com descrição, público-alvo e objetivos;
+Abaixo, um detalhamento das funcionalidades-chave da plataforma:
 
-Formulário de voluntariado e doações;
+| Categoria | Funcionalidade | Descrição |
+| :--- | :--- | :--- |
+| **Institucional** | 📖 Página Completa | História, Missão, Visão e Valores da plataforma. |
+| **Projetos** | 🔍 Seção Detalhada | Divulgação de projetos sociais com descrição, público-alvo e objetivos claros. |
+| **Engajamento** | 📝 Formulários | Captação de **voluntários** e **doações** de forma simples e direta. |
+| **Navegação** | ⚡ SPA (Single Page) | Experiência de usuário fluida e rápida, com roteamento eficiente (JavaScript Puro). |
+| **Design** | 🌓 Modos Acessíveis | Suporte a **Modo Escuro** e **Modo de Alto Contraste** (Acessibilidade). |
+| **SEO** | 📈 Otimização | Código limpo e padronizado seguindo boas práticas para melhor indexação em mecanismos de busca. |
 
-Sistema de navegação SPA (Single Page Application);
+---
 
-Suporte a modo escuro e modo de alto contraste;
+### 💻 Tecnologias Utilizadas
 
-Layout totalmente responsivo para desktop, tablet e mobile;
+O projeto foi construído utilizando o "arsenal" do desenvolvimento web moderno, com foco em performance e leveza.
 
-SEO otimizado para melhor indexação em mecanismos de busca.
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Categoria</th>
+      <th width="70%">Ferramentas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Estrutura</strong></td>
+      <td>HTML5 (Semântica)</td>
+    </tr>
+    <tr>
+      <td><strong>Estilização</strong></td>
+      <td>CSS3 (Flexbox, Grid, Variáveis, Animações e Transições)</td>
+    </tr>
+    <tr>
+      <td><strong>Interatividade</strong></td>
+      <td>JavaScript Puro (DOM, Eventos e Roteamento SPA)</td>
+    </tr>
+    <tr>
+      <td><strong>Versionamento</strong></td>
+      <td>Git e GitHub</td>
+    </tr>
+    <tr>
+      <td><strong>Acessibilidade</strong></td>
+      <td>WCAG 2.1 AA, Suporte a Teclado e Leitores de Tela</td>
+    </tr>
+    <tr>
+      <td><strong>Desempenho</strong></td>
+      <td>Otimização de recursos, Lazy Loading, Minificação</td>
+    </tr>
+  </tbody>
+</table>
 
-💡 Tecnologias Utilizadas
-Categoria	Ferramentas
-Estrutura	HTML5
-Estilos	CSS3 (Flexbox, Grid, variáveis, animações e transições)
-Interatividade	JavaScript Puro (DOM, eventos, roteamento SPA)
-Versionamento	Git e GitHub
-Acessibilidade	WCAG 2.1 AA, suporte a teclado e leitores de tela
-Desempenho	Otimização de recursos, lazy loading, minificação
-📱 Responsividade
+---
 
-O design segue a abordagem mobile-first, garantindo navegação fluida e intuitiva em qualquer dispositivo.
-Os breakpoints foram definidos para smartphones, tablets e monitores desktop, ajustando o layout conforme o tamanho da tela.
+### 📱 Design & Responsividade
 
-⚙️ Acessibilidade
+O design segue a abordagem **Mobile-First**, garantindo que a experiência de navegação seja **fluida e intuitiva** em qualquer dispositivo.
 
-A plataforma foi projetada conforme as diretrizes WCAG 2.1 Nível AA, com:
+* **Abordagem**: Priorização do conteúdo e design adaptativo.
+* **Layout**: Totalmente **responsivo** para desktop, tablet e mobile.
+* **Breakpoints**: Definição precisa para otimizar o layout em diferentes tamanhos de tela.
 
-Contraste mínimo de 4.5:1;
+---
 
-Navegação completa por teclado;
+### ♿ Acessibilidade (WCAG 2.1 AA)
 
-Estrutura semântica otimizada;
+A plataforma Unicausas foi desenhada com um compromisso sólido com a inclusão digital, seguindo rigorosamente as diretrizes **WCAG 2.1 Nível AA**:
 
-Modo de alto contraste e modo escuro acessíveis;
+* ✅ **Contraste Mínimo**: Garantido em 4.5:1 em todos os textos e elementos.
+* ✅ **Navegação Completa por Teclado**: Foco visível e ordem de tabulação lógica.
+* ✅ **Estrutura Semântica**: Utilização de tags HTML corretas para acessibilidade e SEO.
+* ✅ **Compatibilidade**: Testado e otimizado para leitores de tela (NVDA, JAWS, VoiceOver).
 
-Compatibilidade com leitores de tela (NVDA, JAWS, VoiceOver).
+---
 
-🔒 Boas Práticas e Segurança
+### 🔒 Boas Práticas e Segurança
 
-Estrutura compatível com HTTPS;
+<table width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <h4>Código Limpo</h4>
+      <p>Padrão e organizado, seguindo as melhores práticas de SEO e manutenção.</p>
+    </td>
+    <td align="center" width="33%">
+      <h4>Validação de Formulários</h4>
+      <p>Validação no cliente para feedback instantâneo ao usuário e melhor UX.</p>
+    </td>
+    <td align="center" width="33%">
+      <h4>Estrutura Segura</h4>
+      <p>Compatibilidade e otimização para protocolo HTTPS e performance.</p>
+    </td>
+  </tr>
+</table>
 
-Validação de formulários no cliente;
+---
 
-Código limpo e padronizado seguindo boas práticas de SEO e acessibilidade;
+### 📂 Estrutura do Projeto
 
-Organização modular de arquivos para manutenção facilitada.
+A organização modular e lógica facilita a manutenção e o desenvolvimento:
+📦 unicausas/ ┣ 📂 css/ # Arquivos de estilo (CSS) ┣ 📂 icons/ # Ícones e assets visuais ┣ 📂 img/ # Imagens otimizadas ┣ 📂 js/ # Código JavaScript para interatividade e SPA ┣ 📂 pages/ # Conteúdo das diferentes "páginas" do SPA ┗ 📜 index.html # Arquivo principal da aplicação
+---
 
-🧩 Estrutura do Projeto
-📦 unicausas/
- ┣ 📂 css/
- ┣ 📂 icons/
- ┣ 📂 img/
- ┣ 📂 js/
- ┣ 📂 pages/
- ┗ 📜 index.html
+### 🧾 Versionamento (SemVer)
 
-🧾 Versionamento
+O projeto utiliza **Versionamento Semântico (SemVer)** e segue um padrão de commits descritivos:
 
-O projeto segue versionamento semântico (SemVer) e utiliza commits descritivos:
+* <kbd>feat</kbd>: Novas funcionalidades.
+* <kbd>fix</kbd>: Correções de bugs.
+* <kbd>docs</kbd>: Alterações na documentação.
+* <kbd>style</kbd>: Ajustes visuais (formatação de código, CSS).
+* <kbd>refactor</kbd>: Reestruturações de código sem alterar funcionalidade.
+* <kbd>chore</kbd>: Tarefas técnicas de build ou configuração.
 
-feat: novas funcionalidades;
+---
 
-fix: correções de bugs;
+<div align="center">
+    <h3>👤 Autor</h3>
+    
+    <p>Desenvolvido com dedicação por:</p>
+    
+    <a href="mailto:igor.gl.dias@gmail.com"><img src="https://img.shields.io/badge/Email-igor.gl.dias%40gmail.com-blue?logo=gmail" alt="Email"></a>
+    <a href="https://github.com/IgorGDias1"><img src="https://img.shields.io/badge/GitHub-IgorGDias1-181717?logo=github" alt="GitHub"></a>
+    <a href="www.linkedin.com/in/igor-dias-230839248"><img src="https://img.shields.io/badge/LinkedIn-Igor%20Galvão%20Dias-0a66c2?logo=linkedin" alt="LinkedIn"></a>
+</div>
 
-docs: alterações na documentação;
+---
 
-style: ajustes visuais;
+### ⚖️ Licença
 
-refactor: reestruturações de código;
-
-chore: tarefas técnicas.
-
-👥 Autor
-
-Igor Galvão Dias
-📧 Email: [![Email](https://img.shields.io/badge/Email-igor.gl.dias%40gmail.com-blue?logo=gmail)](mailto:igor.gl.dias@gmail.com)
-💼 GitHub: [![GitHub](https://img.shields.io/badge/GitHub-IgorGDias1-181717?logo=github)](https://github.com/IgorGDias1)
-🔗 LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Igor%20Galvão%20Dias-0a66c2?logo=linkedin)](www.linkedin.com/in/igor-dias-230839248)
-
-🪪 Licença
-
-Este projeto é de uso educacional, sem fins comerciais.
+Este projeto é de uso **educacional**, sem fins comerciais.
