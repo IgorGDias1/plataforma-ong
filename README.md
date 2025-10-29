@@ -114,7 +114,14 @@ A plataforma Unicausas foi desenhada com um compromisso sólido com a inclusão 
 ### 📂 Estrutura do Projeto
 
 A organização modular e lógica facilita a manutenção e o desenvolvimento:
-📦 unicausas/ ┣ 📂 css/ # Arquivos de estilo (CSS) ┣ 📂 icons/ # Ícones e assets visuais ┣ 📂 img/ # Imagens otimizadas ┣ 📂 js/ # Código JavaScript para interatividade e SPA ┣ 📂 pages/ # Conteúdo das diferentes "páginas" do SPA ┗ 📜 index.html # Arquivo principal da aplicação
+📦 unicausas/
+┣ 📂 css/ # Arquivos de estilo (CSS) 
+┣ 📂 icons/ # Ícones e assets visuais 
+┣ 📂 img/ # Imagens otimizadas 
+┣ 📂 js/ # Código JavaScript para interatividade e SPA 
+┣ 📂 pages/ # Conteúdo das diferentes "páginas" do SPA 
+┗ 📜 index.html # Arquivo principal da aplicação
+
 ---
 
 ### 🧾 Versionamento (SemVer)
@@ -132,12 +139,10 @@ O projeto utiliza **Versionamento Semântico (SemVer)** e segue um padrão de co
 
 <div align="center">
     <h3>👤 Autor</h3>
-    
     <p>Desenvolvido com dedicação por:</p>
-    
     <a href="mailto:igor.gl.dias@gmail.com"><img src="https://img.shields.io/badge/Email-igor.gl.dias%40gmail.com-blue?logo=gmail" alt="Email"></a>
     <a href="https://github.com/IgorGDias1"><img src="https://img.shields.io/badge/GitHub-IgorGDias1-181717?logo=github" alt="GitHub"></a>
-    <a href="www.linkedin.com/in/igor-dias-230839248"><img src="https://img.shields.io/badge/LinkedIn-Igor%20Galvão%20Dias-0a66c2?logo=linkedin" alt="LinkedIn"></a>
+    <a> href="www.linkedin.com/in/igor-dias-230839248"><img src="https://img.shields.io/badge/LinkedIn-Igor%20Galvão%20Dias-0a66c2?logo=linkedin" alt="LinkedIn"></a>
 </div>
 
 ---
